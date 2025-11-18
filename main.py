@@ -661,7 +661,7 @@ def main(root):
 
         back_button = tk.Button(root, text="Back", command=lambda: main(root))
 
-        hint = ttk.Label(root, text="Do you want write text or import from file?")
+        hint = ttk.Label(root, text="Do you want to Encrypt or Decrypt?")
 
         choice = ttk.Combobox(
             root,
